@@ -12,7 +12,7 @@ Right now, we're consuming new Ruby topics through a firehose with a wide range 
 2. Why write a loop to pull columns when you could just .transpose?
     - During the matrix exorcism assignment, the actual reading in process of the matrix (essentially read in and create nested array to hold rows) and returning a row was relatively simple, but when it came to taking the inverse (returning a column) I immediately defaulted to the brute force method of writing a loop.  After building something that I knew wasn't the most efficient I looked at solutions and discovered a solution that is not just 1 line succinct, it is one word succinct: .transpose.  Again, I was stunned at the simplicity and number of quick soultions Ruby has built-in.  
 
-# Big Takeaway 
+### Big Takeaway 
 
 Don't reinvent the wheel - often there is a ruby method that can get you exactly what you want.  Exhaust your research first
 
